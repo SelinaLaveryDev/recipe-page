@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "YoungSerif-Regular";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 :root {
   /* colours */
   --rose-800: #7a284e;
@@ -8,4 +24,7 @@
   --stone-100: #f3e5d7;
   --brown-800: #854632;
   --white-100: #ffffff;
+
+  /* typography */
+  --young-serif-reg: ;
 }
